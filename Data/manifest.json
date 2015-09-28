@@ -4,5 +4,32 @@
   },
   "SimpleITKLogo.png": {
     "md5sum": "dea8658ba26f7a5c18048cb07b73959a"
+  },
+  "VisibleHumanHeadRender.png": {
+    "md5sum": "b2f5031edf37a8734052c6470471f2c1"
+  },
+  "VisibleHumanLogo.png": {
+    "md5sum": "4f3b92037572f86dcec69a0555936172"
+  },
+  "VisibleHumanSlice.png": {
+    "md5sum": "5168aaeffc92ee3715738cb8055972ee"
+  },
+  "CodeReviews.png": {
+    "md5sum": "45776ebb07c36b379603115aa5f94a65"
+  },
+  "Filtering.png": {
+    "md5sum": "112867719746e21743aa48e50d7f875b"
+  },
+  "SegmentationLevelSet.png": {
+    "md5sum": "0b7c860c06708d3fc47e79bb8575a751"
+  },
+  "Registration.png": {
+    "md5sum": "35dd0c27cc45e6c2c3d8c79c1a41a43c"
+  },
+  "Mesh.png": {
+    "md5sum": "34adc9432278e0a0218b98e5e7555ce4"
+  },
+  "Transformation.png": {
+    "md5sum": "165b3e5280fd7721bc10da6304dd8a89"
   }
 }
