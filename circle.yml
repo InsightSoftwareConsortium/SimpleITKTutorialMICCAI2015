@@ -1,0 +1,12 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+    - docker pull insighttoolkit/simpleitk-notebooks:latest
+
+test:
+  override:
+    - docker run -v ~/SimpleITKTutorialMICCAI2015:/home/jovyan/notebooks insighttoolkit/simpleitk-notebooks:latest ./test.sh
