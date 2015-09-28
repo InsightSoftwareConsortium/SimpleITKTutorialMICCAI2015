@@ -76,7 +76,7 @@ Program
    filters *Matthew McCormick*
 3. *10:00am:* `The ITKv4 registration
    framework <3_The_ITKv4_registration_framework.ipynb>`__ *Nick
-   Tustison and Brian Avant*
+   Tustison and Brian Avants*
 4. *10:30am:* Coffee break.
 5. *10:45am:* `Registration 1 <4_Registration_1.ipynb>`__: composite
    transform, transformation initialization, embedded multi-resolution,
