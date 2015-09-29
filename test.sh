@@ -13,7 +13,7 @@ while read notebook; do
     --output $tempoutput \
     --execute \
     --log-level=DEBUG \
-    --Execution.timeout=300
+    --ExecutePreprocessor.timeout=300
   if test $? -ne 0; then
     echo "Error: $(basename "$notebook") failed to execute." 1>&2
     let "failed++"
