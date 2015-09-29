@@ -9,7 +9,11 @@ failed=0
 while read notebook; do
   echo $notebook | grep -q ipynb_checkpoints && continue
   echo "Testing ${notebook}..."
-  jupyter nbconvert --to notebook "$notebook" --output $tempoutput --execute --log-level=DEBUG
+  jupyter nbconvert --to notebook "$notebook" \
+    --output $tempoutput \
+    --execute \
+    --log-level=DEBUG \
+    --Execution.timeout=300
   if test $? -ne 0; then
     echo "Error: $(basename "$notebook") failed to execute." 1>&2
     let "failed++"
