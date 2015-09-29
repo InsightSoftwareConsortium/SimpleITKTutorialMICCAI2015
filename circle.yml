@@ -5,9 +5,9 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker pull insighttoolkit/simpleitk-notebooks:latest
+    - docker pull insighttoolkit/simpleitk-notebooks:2015-miccai
 
 test:
   override:
     - cd ~/SimpleITKTutorialMICCAI2015 && python ./downloaddata.py ./Data ./Data/manifest.json
-    - docker run -v ~/SimpleITKTutorialMICCAI2015:/home/jovyan/notebooks insighttoolkit/simpleitk-notebooks:latest ./test.sh
+    - docker run -v ~/SimpleITKTutorialMICCAI2015:/home/jovyan/notebooks insighttoolkit/simpleitk-notebooks:2015-miccai ./test.sh
