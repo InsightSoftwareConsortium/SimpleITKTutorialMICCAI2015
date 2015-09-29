@@ -1,5 +1,5 @@
 import numpy as np
-from scipy import linalg
+from numpy import linalg
 
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
