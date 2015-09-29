@@ -31,5 +31,26 @@
   },
   "Transformation.png": {
     "md5sum": "165b3e5280fd7721bc10da6304dd8a89"
+  },
+  "JupyterLogo.svg": {
+    "md5sum": "13e8ebca307d02e996f676ecaabdffb2"
+  },
+  "JupyterLogoSmall.svg": {
+    "md5sum": "0acda1dfe91d5801c6a2b43ee9693f6f"
+  },
+  "qdna1.mha": {
+    "md5sum": "02e4adca61cb76d63eff8c3bcc84c0d4"
+  },
+  "edit_mode.png": {
+    "md5sum": "34fdf1814b324df3e5577860723a17cf"
+  },
+  "command_mode.png": {
+    "md5sum": "2a1eea20f2d06592c8b55dd8b651ba1e"
+  },
+  "menubar_toolbar.png": {
+    "md5sum": "99103059ad0e706981cc2884ab1a86d7"
+  },
+  "dashboard_files_tab.png": {
+    "md5sum": "95cd38f7313f490494095d2b9963e9bc"
   }
 }
