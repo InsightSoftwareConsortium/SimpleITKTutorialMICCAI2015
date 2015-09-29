@@ -9,4 +9,5 @@ dependencies:
 
 test:
   override:
+    - cd ~/SimpleITKTutorialMICCAI2015 && python ./downloaddata.py ./Data ./Data/manifest.json
     - docker run -v ~/SimpleITKTutorialMICCAI2015:/home/jovyan/notebooks insighttoolkit/simpleitk-notebooks:latest ./test.sh
