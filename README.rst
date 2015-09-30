@@ -5,7 +5,7 @@ SimpleITK Registration
 An Interactive, Python-based Introduction to Registration the Insight Toolkit (ITK)
 -----------------------------------------------------------------------------------
 
-|MICCAI 2015|
+|Circle CI|
 
 2015 MICCAI Conference
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -28,10 +28,6 @@ Nick Tustison, University of Virginia
 Ziv Yaniv, TAJ Technologies Inc. and National Institutes of Health
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|Circle CI|
-
-.. |MICCAI 2015| image:: Data/MiccaiBanner.png
-   :target: http://www.itk.org/Wiki/SimpleITK/Tutorials/MICCAI2015
 .. |Circle CI| image:: https://circleci.com/gh/InsightSoftwareConsortium/SimpleITKTutorialMICCAI2015.svg?style=svg
    :target: https://circleci.com/gh/InsightSoftwareConsortium/SimpleITKTutorialMICCAI2015
 
@@ -47,8 +43,6 @@ Who Should Attend
 If you answered yes to either of these questions, then this tutorial is
 for you.
 
-|SimpleITK|
-
 The goal of this half-day tutorial is to introduce students and
 researchers to SimpleITK’s interface for the ITK version 4 registration
 framework. SimpleITK is, as the name suggests, a simpler interface to
@@ -61,9 +55,6 @@ include: uniform treatment of linear, deformable and composite
 transformations, embedded multi-resolution registration and self
 calibrating optimizers. Using a hands on approach, participants will
 experiment with various registration tasks, learning how to use
-
-.. |SimpleITK| image:: Data/SimpleITKLogo.png
-   :target: http://www.simpleitk.org/
 
 Program
 -------
