@@ -65,15 +65,14 @@ Program
 2. *09:00am:* `SimpleITK basics <2_SimpleITK_basics.ipynb>`__: loading
    data, image access, image transformations, image resampling, basic
    filters *Matthew McCormick*
-3. *10:00am:* `The ITKv4 registration
-   framework <3_The_ITKv4_registration_framework.ipynb>`__ *Nick
+3. *10:00am:* The ITKv4 registration framework *Nick
    Tustison and Brian Avants*
 4. *10:30am:* Coffee break.
-5. *10:45am:* `Registration 1 <4_Registration_1.ipynb>`__: composite
+5. *10:45am:* `Registration 1 <3_Registration_1.ipynb>`__: composite
    transform, transformation initialization, embedded multi-resolution,
    scale parameter estimation, optimization termination criteria *Ziv
    Yaniv*
-6. *11:30am:* `Registration 2 <5_Registration_2.ipynb>`__: nonrigid
+6. *11:30am:* `Registration 2 <4_Registration_2.ipynb>`__: nonrigid
    registration, Bspline and displacement field transformations *Ziv
    Yaniv*
 7. *12:30pm:* Lunch.
