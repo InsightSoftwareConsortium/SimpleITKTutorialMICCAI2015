@@ -89,5 +89,23 @@
   "md5sum" : "f03684187568eea6709b7e8d49c7d6c1",
   "url" : "http://tux.creatis.insa-lyon.fr/~srit/POPI/Masks/70Mask-MetaImage.tar",
   "archive" : "true"
+ },
+ "PhysicalSpace.png": {
+   "md5sum": "d06a8495668c0e72953ec8e4d6567adf"
+ },
+ "ResampleOutputInformation.png": {
+   "md5sum" : "33de60b7e7295628dce03f029988f95d"
+ },
+ "CommonReferenceSystem.png": {
+   "md5sum" : "d5cf8fa8567508afa9e3a7bc6dbd7b9a"
+ },
+ "ITKv4RegistrationComponentsDiagram.svg": {
+   "md5sum" : "fa9c2b40248d206c54ca4964f8fca1b4"
+ },
+ "NESb_C2_TP1.tiff": {
+   "md5sum" : "9aca370b1a19c438c0a21760b8a360fa"
+ },
+ "TransformDirection.png": {
+   "md5sum" : "85459fe531c017472bdbe6339b23ab81"
  }
 }
