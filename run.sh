@@ -1,28 +1,37 @@
 #!/bin/sh
 
-_MACHINE_NAME=$(docker-machine active 2> /dev/null || echo "default")
-
-GREEN='\033[0;32m'
-NC='\033[0m'
-
-# if we need to use docker machine let us start the "default"
-if ! docker info &> /dev/null; then
-    command -v docker-machine &> /dev/null || (echo "Docker is not configured correctly. No host or docker-machine." && exit 1)
-    if [ "$(docker-machine status $_MACHINE_NAME 2> /dev/null)" != "Running" ]; then
-        echo "Starting machine $_MACHINE_NAME..."
-        docker-machine start $_MACHINE_NAME || exit 1
-    fi
-    eval $(docker-machine env $_MACHINE_NAME --shell=sh)
+if ! which docker &> /dev/null; then
+	echo "Error: the 'docker' command was not found.  Please install docker."
+	exit 1
 fi
 
-_MACHINE_IP=$(docker-machine ip ${_MACHINE_NAME} 2> /dev/null || echo "localhost" )
-_URL="http://${_MACHINE_IP}:8888"
+_OS=$(uname)
+if [ "${_OS}" != "Linux" ]; then
+	_VM=$(docker-machine active 2> /dev/null || echo "default")
+	if ! docker-machine inspect "${_VM}" &> /dev/null; then
+		echo "Creating machine ${_VM}..."
+		docker-machine -D create -d virtualbox --virtualbox-memory 2048 ${_VM}
+	fi
+	docker-machine start ${_VM} > /dev/null
+    eval $(docker-machine env $_VM --shell=sh)
+fi
 
-echo "\n\n${GREEN}Setting up Docker Jupyter Notebook at ${_URL}${NC}\n\n"
+_IP=$(docker-machine ip ${_VM} 2> /dev/null || echo "localhost" )
+_URL="http://${_IP}:8888"
 
+echo -e "\nSetting up the Docker Jupyter Notebook"
+echo -e "\nPoint your web browser to ${_URL}"
+echo -e "\n\nEnter Control-C to stop the server.\n"
 
+_REPO_DIR="$(cd "$(dirname "$0")" && pwd )"
+_MOUNT_LOCAL=""
+if [ "${_OS}" = "Linux" ] || [ "${_OS}" = "Darwin" ]; then
+	_MOUNT_LOCAL=" -v ${_REPO_DIR}:/home/jovyan/notebooks/ "
+fi
 docker run \
   --rm \
+  ${_MOUNT_LOCAL} \
   -p 8888:8888 \
-  -v $PWD:/home/jovyan/notebooks/ \
-  insighttoolkit/simpleitk-notebooks:2015-miccai
+  insighttoolkit/simpleitk-notebooks:2015-miccai &> /dev/null
+
+# vim: noexpandtab shiftwidth=4 tabstop=4 softtabstop=0
