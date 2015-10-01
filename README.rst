@@ -1,35 +1,33 @@
-
-SimpleITK Registration
-======================
-
-An Interactive, Python-based Introduction to Registration the Insight Toolkit (ITK)
------------------------------------------------------------------------------------
-
 |Circle CI|
-
-2015 MICCAI Conference
-~~~~~~~~~~~~~~~~~~~~~~
-
-Brian Avants, University of Pennsylvania
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Hans Johnson, University of Iowa
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Bradley Lowekamp, Medical Science & Computing and National Institutes of Health
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Matthew McCormick, Kitware Inc
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Nick Tustison, University of Virginia
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Ziv Yaniv, TAJ Technologies Inc. and National Institutes of Health
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. |Circle CI| image:: https://circleci.com/gh/InsightSoftwareConsortium/SimpleITKTutorialMICCAI2015.svg?style=svg
    :target: https://circleci.com/gh/InsightSoftwareConsortium/SimpleITKTutorialMICCAI2015
+
+MICCAI 2015: An Interactive, Python-based Introduction to Registration with the Insight Toolkit (ITK)
+=====================================================================================================
+
+
+Organizers
+----------
+
+.. image:: http://www.itk.org/Wiki/images/thumb/b/b9/Nlm.jpg/60px-Nlm.jpg
+   :alt: National Library of Medicine
+.. image:: http://www.itk.org/Wiki/images/thumb/0/07/Kitware.jpg/150px-Kitware.jpg
+   :alt: Kitware Inc.
+.. image:: http://www.itk.org/Wiki/images/1/1e/Upenn.jpg
+   :alt: University of Pennsylvania
+.. image:: http://www.itk.org/Wiki/images/4/43/Uofiowa.jpg 
+   :atl: University of Iowa
+.. image:: http://www.itk.org/Wiki/images/9/91/Uva.jpg
+   :alt: University of Virginia
+|
+- Brian Avants, University of Pennsylvania
+- Hans Johnson, University of Iowa
+- Bradley Lowekamp, Medical Science & Computing and National Institutes of Health
+- Matthew McCormick, Kitware Inc
+- Nick Tustison, University of Virginia
+- Ziv Yaniv, TAJ Technologies Inc. and National Institutes of Health
+
 
 Who Should Attend
 -----------------
