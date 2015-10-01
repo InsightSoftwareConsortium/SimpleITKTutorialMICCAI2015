@@ -23,3 +23,5 @@ docker run \
   -p 8888:8888 \
   -v $PWD:/home/jovyan/notebooks/ \
   insighttoolkit/simpleitk-notebooks:2015-miccai
+
+# vim: noexpandtab shiftwidth=4 tabstop=4 softtabstop=0
