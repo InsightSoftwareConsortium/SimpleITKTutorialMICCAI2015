@@ -19,9 +19,13 @@ fi
 _IP=$(docker-machine ip ${_VM} 2> /dev/null || echo "localhost" )
 _URL="http://${_IP}:8888"
 
-echo -e "\nSetting up the Docker Jupyter Notebook"
-echo -e "\nPoint your web browser to ${_URL}"
-echo -e "\n\nEnter Control-C to stop the server.\n"
+echo ""
+echo "Setting up the Docker Jupyter Notebook"
+echo ""
+echo "Point your web browser to ${_URL}"
+echo ""
+echo ""
+echo "Enter Control-C to stop the server."
 
 _REPO_DIR="$(cd "$(dirname "$0")" && pwd )"
 _MOUNT_LOCAL=""
