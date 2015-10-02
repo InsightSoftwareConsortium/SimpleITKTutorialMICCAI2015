@@ -1,6 +1,7 @@
 #!/bin/sh
 
-if ! which docker &> /dev/null; then
+which docker &> /dev/null
+if [ $? -ne 0 ]; then
 	echo "Error: the 'docker' command was not found.  Please install docker."
 	exit 1
 fi
