@@ -53,6 +53,7 @@ include: uniform treatment of linear, deformable and composite
 transformations, embedded multi-resolution registration and self
 calibrating optimizers. Using a hands on approach, participants will
 experiment with various registration tasks, learning how to use
+SimpleITK.
 
 Program
 -------
