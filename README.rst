@@ -17,7 +17,7 @@ Organizers
 .. image:: http://www.itk.org/Wiki/images/1/1e/Upenn.jpg
    :alt: University of Pennsylvania
 .. image:: http://www.itk.org/Wiki/images/4/43/Uofiowa.jpg 
-   :atl: University of Iowa
+   :alt: University of Iowa
 .. image:: http://www.itk.org/Wiki/images/9/91/Uva.jpg
    :alt: University of Virginia
 |
